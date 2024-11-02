@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "FirstApp.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Logindto",
+        "Type": "FirstApp.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstApp.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerdto",
+        "Type": "FirstApp.DTO.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstApp.Controllers.StockController",
+    "Method": "GetAllStocks",
+    "RelativePath": "api/Stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstApp.Controllers.StockController",
+    "Method": "CreateStock",
+    "RelativePath": "api/Stock",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newstockDTO",
+        "Type": "FirstApp.DTO.Stock.StockDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstApp.Controllers.StockController",
+    "Method": "GetStockById",
+    "RelativePath": "api/Stock/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstApp.Controllers.StockController",
+    "Method": "UpdateStock",
+    "RelativePath": "api/Stock/{StockId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StockId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newstockDTO",
+        "Type": "FirstApp.DTO.Stock.StockDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirstApp.Controllers.StockController",
+    "Method": "DeleteStock",
+    "RelativePath": "api/Stock/{StockId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "StockId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
